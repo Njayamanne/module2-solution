@@ -1,0 +1,93 @@
+/* CSS Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Base Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+}
+
+.container {
+    width: 100%;
+    padding: 15px;
+}
+
+.page-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.75em;
+}
+
+.row {
+    width: 100%;
+}
+
+.section {
+    float: left;
+    padding: 15px;
+}
+
+.section-content {
+    position: relative;
+    background-color: #6e6868;
+    border: 3px solid black;
+    padding: 40px 15px 15px 15px;
+    font-weight: bold;
+    color: black;
+}
+
+.section-title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.25em;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.chicken {
+    background-color: #d59898;
+    font-weight: bold;
+}
+
+.beef {
+    background-color: #c14543;
+    color: white;
+    font-weight: bold;
+}
+
+.sushi {
+    background-color: #e5d198;
+    font-weight: bold;
+}
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        width: 33.33%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-sm-12 {
+        width: 100%;
+    }
+}
