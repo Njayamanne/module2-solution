@@ -3,7 +3,7 @@ Responsive menu page with mobile, tablet &amp; desktop layouts. Three food secti
 ## 📸 Preview
 
 ### Desktop View
-![Desktop Preview](desktop.png)
+![Desktop Preview](Desktop.png)
 
 ### Tablet View  
 ![Tablet Preview](tablet.png)
